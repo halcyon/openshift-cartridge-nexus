@@ -6,6 +6,7 @@ Description: "Sonatype Nexus artifact repository"
 Version: '2.8.0'
 License: EPEL 1.0
 License-Url: http://www.sonatype.org/nexus/license
+Source-Url: git@github.com:halcyon/openshift-cartridge-nexus.git
 Vendor: Sonatype
 Cartridge-Version: 0.0.1
 Cartridge-Vendor: sabre1041

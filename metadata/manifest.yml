@@ -4,7 +4,7 @@ Cartridge-Short-Name: NEXUS
 Display-Name: Nexus
 Description: "Sonatype Nexus artifact repository"
 Version: '2.8.0'
-Source-Url: git@github.com:halcyon/openshift-cartridge-nexus.git
+Source-Url: git://halcyon/openshift-cartridge-nexus.git
 License: EPEL 1.0
 License-Url: http://www.sonatype.org/nexus/license
 Vendor: Sonatype

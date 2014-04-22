@@ -3,7 +3,7 @@ Name: nexus
 Cartridge-Short-Name: NEXUS
 Display-Name: Nexus
 Description: "Sonatype Nexus artifact repository"
-Version: '2.6.4'
+Version: '2.8.0-05'
 License: EPEL 1.0
 License-Url: http://www.sonatype.org/nexus/license
 Vendor: Sonatype
@@ -15,7 +15,7 @@ Categories:
 - ci
 Website: http://www.sonatype.org/nexus/
 Provides:
-- nexus-2.6.4
+- nexus-2.8.0-05
 - nexus
 Cart-Data:
 - Key: OPENSHIFT_NEXUS_LOG_DIR
@@ -66,7 +66,7 @@ Endpoints:
   - Frontend: ''
     Backend: '/nexus'
   - Frontend: '/nexus'
-    Backend: '/nexus'    
+    Backend: '/nexus'
   - Frontend: /health
     Backend: ''
     Options:
@@ -76,5 +76,5 @@ Scaling:
   Max: -1
 Group-Overrides:
   - components:
-    - nexus-2.6.4
+    - nexus-2.8.0-05
 Install-Build-Required: false
